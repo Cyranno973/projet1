@@ -2,8 +2,8 @@
                /* Font */
 @font-face {
  font-family: "FontAwesome-webfont";
- src: url("fonts/fontawesome-webfont.ttf") format("ttf"),
-  src: url("fonts/FontAwesome.otf") format("otf"),
+ src: url("fonts/fontawesome-webfont.ttf") format("ttf");
+  src: url("fonts/FontAwesome.otf") format("otf");
 
       }
                 /* Générale */

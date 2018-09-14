@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-21 vendredi septembre->
-<html>
+<!--21 vendredi septembre-->
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -13,12 +13,12 @@
 <body>
   <div class="global">
     <header>
-      <!- logo ->
+      <!-- logo -->
       <div id="logo">
         <a href="index.html"> <img src="images/logo.png" alt="Logo de WebAgency"></a>
       </div>
 
-      <!- menu de navigation ->
+      <!-- menu de navigation -->
       <nav class="menu-principal">
         <ul>
           <li class="lien"><a href="#">Accueil</a></li>
@@ -29,7 +29,7 @@
       </nav>
     </header>
     <div id="slider">
-      <!- Slider ->
+      <!-- Slider -->
       <div class="text-slider">
         <i class="fas fa-angle-right"></i>
         <i class="fas fa-angle-left"></i>
@@ -40,7 +40,7 @@
       </div>
     </div>
     <section class="services">
-      <!- Services ->
+      <!-- Services -->
       <h2 class="titre-section">NOS SERVICES</h2>
       <p class="text1">Agence web créative et réactive, nous vous accompagnons dans vos projets web jusqu'a satisfaction.<br> Notre équipe de professionnels répond à tous vos besoins en matière de communication :<br> e-commerce, site vitrine, site institutionnel, web
         marketing, identité visuelle.</p>
@@ -61,8 +61,8 @@
       </div>
     </section>
     <section id="projets">
-      <!- Projets ->
-      <h2 class="titre-section">NOS PROJETS</P></h2>
+      <!-- Projets -->
+      <h2 class="titre-section">NOS PROJETS</h2>
       <p class="text1">
         Voici une presentation des projets mener par WebAgency Une liste dans vous serez fiere d'en faire parti</p>
       <div class="menu2">
@@ -74,7 +74,7 @@
         </ul>
       </div>
       <div class="gallery">
-        <!- Gallery ->
+        <!-- Gallery -->
         <div class="element"><a href=""><img class="picture" src="images/portfolio/01.jpg" alt=""></a></div>
         <div class="element"><a href=""><img class="picture" src="images/portfolio/02.jpg" alt=""></a></div>
         <div class="element"><a href=""><img class="picture" src="images/portfolio/03.jpg" alt=""></a></div>
@@ -87,17 +87,27 @@
       </div>
     </section>
     <section id="contact">
-      <!- Contact ->
-
-      <div class="google-map">
-        <!- Google Maps ->
-      <iframe id="maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807215!2d2.347636915960283!3d48.873051779288886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1536956619678"
-      frameborder="0" style="border:0" allowfullscreen></iframe>
+      <!-- Contact -->
+      <div class="contact-fond">
+        <div class="google-map">
+        <!-- Google Maps -->
+          <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807215!2d2.347636915960283!3d48.873051779288886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1536956619678"
+         allowfullscreen></iframe>
+        </div>
       </div>
-    Contact Info
-    25 rue d'Hauteville 75010 Paris
-    Tél : 01 02 03 04 05
-
+      <form class="formulaire">
+        <!-- Formulaire-->
+        <h2 class="titre-section">Contact Info</h2>
+              <p>25 rue d'Hauteville 75010 Paris</p>
+              <p>Tél : 01 02 03 04 05</p>
+        <p><input class="form-input" type="text" name="pseudo" id="pseudo" placeholder="Name" /></p>
+        <p><input class="form-input" type="text" name="mail" id="mail" placeholder="Email" /></p>
+        <p><input class="form-input" type="text" name="sujet" id="sujet" placeholder="Subject" /></p>
+        <p><textarea class="form-input-area"  name="Message" id="Message" placeholder="Message"></textarea></p>
+        <div class="submit">
+          <a href="#">Send Message</a>
+        </div>
+    </form>
     </section>
 
 

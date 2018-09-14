@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="global">
+  <div id="global">
     <header>
       <!-- logo -->
       <div id="logo">
@@ -21,25 +21,37 @@
       <!-- menu de navigation -->
       <nav class="menu-principal">
         <ul>
-          <li class="lien"><a href="#">Accueil</a></li>
-          <li class="lien"><a href="#">Services</a></li>
-          <li class="lien"><a href="#">Portfolio</a></li>
-          <li class="lien"><a href="#">Contact</a></li>
+          <li class="lien"><a href="index.html">Accueil</a></li>
+          <li class="lien"><a href="#services">Services</a></li>
+          <li class="lien"><a href="#projets">Portfolio</a></li>
+          <li class="lien"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="slider">
       <!-- Slider -->
-      <div class="text-slider">
-        <i class="fas fa-angle-right"></i>
+      <div id="arrow-left">
+        <div id="circle-left">
+
+        </div>
         <i class="fas fa-angle-left"></i>
+      </div>
+      <div id="arrow-right">
+        <div id="circle-right">
+
+        </div>
+        <i class="fas fa-angle-right"></i>
+      </div>
+      <div class="text-slider">
+
+
         <h1><strong id="titre">WEBAGENCY</strong>:L'AGENCE DE TOUS <br> VOS PROJETS!</h1>
         <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !<br>
           <a id="button-slider" href="#">Plus d'infos</a>
         </p>
       </div>
     </div>
-    <section class="services">
+    <section id="services">
       <!-- Services -->
       <h2 class="titre-section">NOS SERVICES</h2>
       <p class="text1">Agence web créative et réactive, nous vous accompagnons dans vos projets web jusqu'a satisfaction.<br> Notre équipe de professionnels répond à tous vos besoins en matière de communication :<br> e-commerce, site vitrine, site institutionnel, web
@@ -98,8 +110,10 @@
       <form class="formulaire">
         <!-- Formulaire-->
         <h2 class="titre-section">Contact Info</h2>
-              <p>25 rue d'Hauteville 75010 Paris</p>
-              <p>Tél : 01 02 03 04 05</p>
+        <p><strong>WebAgency SAS</strong><br>25 Rue d'Hauteville 75010 Paris
+        <br>Tél : 01 02 03 04 05
+       </p>
+
         <p><input class="form-input" type="text" name="pseudo" id="pseudo" placeholder="Name" /></p>
         <p><input class="form-input" type="text" name="mail" id="mail" placeholder="Email" /></p>
         <p><input class="form-input" type="text" name="sujet" id="sujet" placeholder="Subject" /></p>

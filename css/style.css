@@ -1,0 +1,144 @@
+ /*  5CADD3 bleu*/
+ /* font */
+@font-face {
+ font-family: "FontAwesome-webfont";
+ src: url("fonts/fontawesome-webfont.ttf") format("ttf"),
+  src: url("fonts/FontAwesome.otf") format("otf"),
+
+      }
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+
+  width: 100%;
+}
+ /* header */
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: FontAwesome-webfont;
+}
+ /* logo */
+ #logo
+{
+
+}
+ /* menu de navigation */
+nav ul {
+  display: flex;
+  list-style-type:none;
+
+}
+li a
+{
+text-decoration: none;
+
+}
+ul .lien
+{
+
+padding-right: 25px;
+}
+#slider
+{
+  background-image: url("../images/slider/bg1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 549px;
+
+
+}
+#titre
+{
+  color: #5CADD3;
+    font-family: FontAwesome-webfont;
+}
+#slider
+{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  color: white;
+}
+.text-slider
+{
+    margin-left: 130px;
+}
+#slider h1
+{
+
+}
+#slider p
+{
+align-self: flex-end;
+}
+#button-slider
+{
+  background-color:  #5CADD3;
+  padding: 5px;
+  border: solid  #5CADD3 3px;
+  display: inline-block;
+}
+
+
+h2
+{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.titre-section
+{
+  display: flex;
+justify-content: center;
+}
+.text1
+{
+  display: flex;
+  justify-content: center;
+
+}
+.titre-services
+{
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+.feature-text
+{
+  display: flex;
+}
+.all-services-text
+{
+
+}
+.gallery
+{
+
+  width: 100%;
+
+
+}
+.allgallery1,.allgallery2
+{
+display: flex;
+
+}
+.picture1,.picture2,.picture3,.picture4,.picture5,.picture6,.picture7,.picture8
+{
+  width: 25%;
+  height: auto;
+}

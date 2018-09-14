@@ -127,18 +127,22 @@ justify-content: center;
 }
 .gallery
 {
-
-  width: 100%;
-
-
-}
-.allgallery1,.allgallery2
-{
+width: 100%;
 display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.element
+{
+
+width: 18%;
+
+padding : 25px;
+
 
 }
-.picture1,.picture2,.picture3,.picture4,.picture5,.picture6,.picture7,.picture8
+.picture
 {
-  width: 25%;
+  width: 100%;
   height: auto;
 }

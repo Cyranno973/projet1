@@ -1,27 +1,41 @@
- /*  5CADD3 bleu  gris formulaire #F1F5F6*/
+ /*  5CADD3 bleu  gris formulaire #F1F5F6  gris menu2 #A4A4A4*/
                /* Font */
-@font-face {
- font-family: "FontAwesome-webfont";
- src: url("fonts/fontawesome-webfont.ttf") format("ttf");
-  src: url("fonts/FontAwesome.otf") format("otf");
-
-      }
+ @font-face {
+     font-family: 'Roboto-Bold';
+     src: url('/fonts/Roboto-Bold.ttf');
+ }
+ @font-face {
+     font-family: 'Roboto-Regular';
+     src: url('/fonts/Roboto-Regular.ttf');
+ }
+ @font-face {
+     font-family: 'Roboto-BoldItalic';
+     src: url('/fonts/Roboto-BoldItalic.ttf');
+ }
+ @font-face {
+     font-family: 'Roboto-Black';
+     src: url('/fonts/Roboto-Black.ttf');
+ }
                 /* Générale */
 html {
   margin: 0;
   padding: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #global {
 
   width: 100%;
-      margin-top: 99px;
+  margin-top: 99px;
+  box-sizing: border-box;
+
 }
                  /* header */
 header {
@@ -32,10 +46,11 @@ header {
   height: 100px;
   align-items: center;
   justify-content: space-around;
-  font-family: FontAwesome-webfont;
+  font-family: Roboto-Black;
   width: 100%;
   opacity: 0.9;
   top: 0;
+box-sizing: border-box;
 }
                    /* logo */
  #logo
@@ -44,11 +59,16 @@ header {
   padding: 0;
 }
                      /* menu de navigation */
+.menu-principal
+{
+  font-family: 'Roboto-Regular';
+    transition: 0,5;
+}
  ul {
   display: flex;
   list-style-type:none;
 }
-li a
+ a
 {
 text-decoration: none;
 }
@@ -56,9 +76,23 @@ ul .lien
 {
 padding-right: 25px;
 }
+a:visited
+{
+
+ color: #151515;;
+}
+.lien a:hover
+{
+
+  padding: 30px 4px;
+  border-top: solid 4px #5CADD3;
+  letter-spacing: 0.2px;
+
+}
                       /* Slider */
 #slider
 {
+  font-family: Roboto-Black;
   background-image: url("../images/slider/bg1.jpg");
   background-size: cover;
   width: 100%;
@@ -67,6 +101,7 @@ padding-right: 25px;
   flex-direction: row;
   align-items:center;
   color: white;
+  box-sizing: border-box;
 }
 #arrow-left
 {
@@ -104,7 +139,7 @@ padding-right: 25px;
 #titre
 {
   color: #5CADD3;
-    font-family: FontAwesome-webfont;
+
 }
 
 .text-slider
@@ -118,12 +153,26 @@ padding-right: 25px;
 #slider p
 {
 align-self: flex-end;
+  font-size: 15px;
+  font-family: 'Roboto-Bold';
+
+}
+#slider p:hover
+{
+  color: #fff;
 }
 #button-slider
 {
   background-color:  #5CADD3;
-  padding: 5px;
+  padding: 15px;
   border-radius: 5px;
+  position: relative;
+  top: 34px;
+  font-family: Roboto-bold;
+  color: #fff;
+  font-size: 20px;
+
+
 }
                       /* Nos Services */
 #services
@@ -186,6 +235,7 @@ padding : 25px;
 {
   display: flex;
   justify-content: center;
+
 }
 .menu2 ul
 {
@@ -193,12 +243,25 @@ padding : 25px;
 }
 .menu2 ul li
 {
-
+  background-color:#A4A4A4 ;
 padding: 19px 23px;
+}
+.menu2 ul li:hover
+{
+  background-color:#5CADD3 ;
+
+
+}
+.menu2 ul li a:hover
+{
+  color: #fff;
+
+
 }
                      /* Contact */
 #contact
 {
+  box-sizing: border-box;
   width: 100%;
 
 }
@@ -230,7 +293,8 @@ opacity: 0.8;
 position: absolute;
 padding: 15px;
     right: 80px;
-    top: 2154px;
+    top: 2196px;
+    box-sizing: border-box;
 }
 .form-input
 {

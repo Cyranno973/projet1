@@ -62,7 +62,7 @@ box-sizing: border-box;
 .menu-principal
 {
   font-family: 'Roboto-Regular';
-    transition: 0,5;
+  color: #151515;
 }
  ul {
   display: flex;
@@ -79,7 +79,7 @@ padding-right: 25px;
 a:visited
 {
 
- color: #151515;;
+ color: #151515;
 }
 .lien a:hover
 {

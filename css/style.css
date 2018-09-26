@@ -272,35 +272,32 @@ h3 {
   right: -6px;
 }
 
-.gallery {
-  width: 100%;
+#gallery{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  padding-left: 10px;
-  margin: auto;
+  flex-wrap: wrap;
+   padding-bottom: 40px;
 }
 
-figure {
-  width: 17%;
-  padding: 8px;
+figure{
+  height: 233px;
   position: relative;
+}
+figure a img{
+  width: 335px;
 }
 
 figcaption {
-  text-align:left;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 92px;
-  opacity: 0;
-  width: 215px;
-  height: 59px;
-  line-height: 1px;
-  color: white;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+position: absolute;
+width: 335px;
+bottom: 9px;
+visibility: hidden;
 }
 
 figure:hover figcaption {
-  opacity: 1;
+visibility: visible;
 }
 
 .eye {
@@ -321,10 +318,6 @@ figure:hover figcaption {
   left: 1px;
 }
 
-.picture {
-  width: 100%;
-  height: auto;
-}
 
 #projects {
   background-color: #F5F5F5;
@@ -425,6 +418,10 @@ form {
 }
 
 @media screen and (max-width:700px) {
+
+  * {
+ 		box-sizing: border-box;
+ 	}
   header {
     display: flex;
     flex-direction: column;
@@ -524,10 +521,9 @@ form {
   }
 
 figcaption {
- opacity: 1;
- top: 100px;
- left: 1px;
- width: 238px;
+ visibility: visible;
+height: auto;
+ max-width: 100%;
 }
   form {
     bottom: 50px;
